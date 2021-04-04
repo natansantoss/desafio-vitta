@@ -1,0 +1,218 @@
+.container{
+    background: url("https://i.pinimg.com/originals/80/c1/77/80c177a67e327c07638b5aa11c8e0895.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    @media(max-width: 745px){
+        border: #1997c6 2px solid;
+    }
+}
+.header h2{
+    margin:20px;
+    color: #fff;
+    text-shadow: #000 0 0 7px;
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+.header p{
+    color: rgb(207, 207, 207);
+    text-shadow: #000 0 0 7px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+
+}
+.create{
+    margin-top:30px;
+}
+.create-btn{
+    color: #fff;
+    background: #1997c6;
+    text-shadow: #000 0 0 7px;
+    width: 100%;
+    font-size: 1.0rem;
+    font-weight: 900;
+    margin-top:10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: #1997c6 2px solid;
+    border-radius: 5%;
+    cursor: pointer;
+    padding: 10px;
+}
+.create-btn:hover {
+    transform: scale(1.0);
+    transition: background 200ms;
+    background: #0e526b;
+}
+.create-forn{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 20px;
+}
+.text-info{
+    color: #fff;
+    text-shadow: #000 0 0 7px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: left;
+    display: block
+}
+.date-time{
+    display: flex;
+}
+.create-forn input{
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-shadow: #000 0 0 7px;
+    font-size: 1.7rem;
+    padding: 7px;
+    font-weight: 500;
+    margin-top: 2px;
+    text-align: left;
+    width: 100%;
+    background: #22242b;
+}
+.create-forn select{
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  text-shadow: #000 0 0 7px;
+  font-size: 1.7rem;
+  padding: 7px;
+  font-weight: 500;
+  margin-top: 2px;
+  text-align: left;
+  width: 100%;
+  background: #22242b;
+}
+.filters{
+  display: flex;
+  justify-content: space-around;
+}
+input, select{
+    background: #22242b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-shadow: #000 0 0 7px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 12px;
+    margin-top: 10px;
+    width: 30%;
+}
+select{
+  width: 20%;
+  text-transform: uppercase;
+}
+
+.base{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tasks{
+  width: 100%;
+  max-width: 1050px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+.task{
+  background:rgba(0, 0, 0, 0.6);
+  margin: 20px;
+  padding: 10px;
+  border-top: #1997c6 5px solid;
+  width: 420px;
+}
+
+.title{
+  color: #fff;
+  text-shadow: #000 0 0 7px;
+  margin: 3px;
+  font-size: 1.54rem;
+  font-weight: 900;
+}
+.title-task{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.delete{
+  border: none;
+  background: none;
+  color: rgb(207, 207, 207);
+  text-shadow: #000 0 0 7px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 5%;
+  padding: 7px;
+  font-weight: 900;
+}
+.delete:hover {
+  transform: scale(1.0);
+  transition: background 200ms;
+  background: #de2e42;
+}
+.date-time{
+  color: rgb(207, 207, 207);
+  text-shadow: #000 0 0 7px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 7px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.info-time{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.during,.alert{
+  display:block;
+
+  color: rgb(143, 143, 143);
+  text-shadow: #000 0 0 7px;
+  margin: 7px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.checked{
+  color: #1997c6;
+  text-shadow: #000 0 0 7px;
+  width:220px;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+.checked-crt{
+  align-items: center;
+  justify-content: space-between;
+}
+.creation{
+  color: rgb(143, 143, 143);
+  text-shadow: #000 0 0 7px;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  float: right;
+
+}
